@@ -20,4 +20,4 @@ while True:
     client.publish(tt,payload,qos=0) #Publica essa temperatura 
     print(tt + "/" + str(t))
     
-    sleep(10) #Repete a cada 60 segundos
+    sleep(60) #Repete a cada 60 segundos
